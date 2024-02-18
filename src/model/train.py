@@ -90,6 +90,7 @@ def test(model, test_loader):
     return test_loss, accuracy
 
 
+
 def train_log(loss, example_ct, epoch):
     loss = float(loss)
     # where the magic happens
